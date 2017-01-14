@@ -345,5 +345,5 @@ Enjoy your game! Can you add sound when your player jumps? :)
 1. Change the player sprite
 2. Add a sound effect when player jumps
 3. Allow the player to collect coins and increment the score when player collects the coin (Use coin.jpg from the assets folder)
-4. Add an enemy sprite that will decrement your score.
+4. Add an enemy sprite that will decrement your score when touched.
 5. Any other features can you think of? :D
