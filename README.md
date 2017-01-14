@@ -338,3 +338,12 @@ scoreText = game.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' }
 ### YOU'RE DONE!
 
 Enjoy your game! Can you add sound when your player jumps? :)
+
+## Part 2 More Features!
+### On your own!
+
+1. Change the player sprite
+2. Add a sound effect when player jumps
+3. Allow the player to collect coins and increment the score when player collects the coin (Use coin.jpg from the assets folder)
+4. Add an enemy sprite that will decrement your score.
+5. Any other features can you think of? :D
