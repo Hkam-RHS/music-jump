@@ -260,8 +260,8 @@ function create(){
 
 ```html
   function update(){
-    //This allows the player to jump only if you press the space key and the player is touching the something at the bottom.
-    if (spaceKey.isDown && player.body.touching.down) {
+    //This allows the player to jump only if you press the space key
+    if (spaceKey.isDown) {
       player.body.velocity.y = -300;
     }
   }
