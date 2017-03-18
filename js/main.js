@@ -43,7 +43,7 @@ function create(){
     //This creates the ground, and makes it solid object the player will not pass through.
     ground = platforms.create(0, GAME_HEIGHT, 'ground');
     ground.anchor.setTo(0,1);
-    ground.scale.setTo(4, 1);
+    ground.scale.setTo(4,1);
     game.physics.arcade.enable(ground);
     ground.body.immovable = true;
 
@@ -60,7 +60,7 @@ function create(){
 
     //This creates the first obstacle on the right side of the screen.
     obstacle = game.add.sprite(700, GAME_HEIGHT, 'obstacle');
-    obstacle.scale.setTo(1,0.2);
+    obstacle.scale.setTo(1,1);
     obstacle.anchor.setTo(0,1);
     game.physics.arcade.enable(obstacle);
     obstacle.body.immovable = true;
@@ -82,7 +82,7 @@ function update(){
     if (obstacle.x < 0) {
       obstacle.kill();
       obstacle = game.add.sprite(900, GAME_HEIGHT, 'obstacle');
-      obstacle.scale.setTo(1,0.2);
+      obstacle.scale.setTo(1,1);
       obstacle.anchor.setTo(0,1);
       game.physics.arcade.enable(obstacle);
       obstacle.body.immovable = true;

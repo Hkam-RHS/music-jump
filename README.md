@@ -147,7 +147,7 @@ function create() {
 
   //This creates the first obstacle on the right side of the screen.
   obstacle = game.add.sprite(700,game.world.height, 'obstacle');
-  obstacle.scale.setTo(1,0.2);
+  obstacle.scale.setTo(1,1);
   obstacle.anchor.setTo(0,1);
 }
 ```
@@ -297,7 +297,7 @@ In the **update** function, we need to recreate the obstacle if it's off the scr
 if (obstacle.x < 0) {
   obstacle.kill();
   obstacle = game.add.sprite(900, GAME_HEIGHT, 'obstacle');
-  obstacle.scale.setTo(1,0.2);
+  obstacle.scale.setTo(1,1);
   obstacle.anchor.setTo(0,1);
   game.physics.arcade.enable(obstacle);
   obstacle.body.immovable = true;
